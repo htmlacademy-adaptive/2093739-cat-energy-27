@@ -37,7 +37,7 @@
       </header>
       <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="feedback-form__wrapper">
-          <fieldset class="feedback-form__fieldset fieldset__parameters">
+          <fieldset class="feedback-form__fieldset">
             <ul class="feedback-form__list">
               <li class="feedback-form__item">
                 <label class="feedback-form__label" for="catname">Имя:*</label>
@@ -45,15 +45,15 @@
               </li>
               <li class="feedback-form__item">
                 <label class="feedback-form__label" for="catweight">Вес (кг):*</label>
-                <input class="feedback-form__input" type="text" id="catweight" name="catweight" placeholder="7" required>
+                <input class="feedback-form__input" type="number" id="catweight" name="catweight" placeholder="7" required>
               </li>
               <li class="feedback-form__item">
                 <label class="feedback-form__label" for="catage">Возраст (лет):</label>
-                <input class="feedback-form__input" type="text" id="catage" name="catage" placeholder="7">
+                <input class="feedback-form__input" type="number" id="catage" name="catage" placeholder="7">
               </li>
             </ul>
           </fieldset>
-          <fieldset class="feedback-form__fieldset fieldset__programs">
+          <fieldset class="feedback-form__fieldset">
             <ul class="feedback-form__list">
               <li class="feedback-form__item">
                 <input class="feedback-form__input" type="radio" id="weight-loss" name="program" checked>
@@ -69,26 +69,24 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="feedback-form__fieldset fieldset__contacts">
+          <fieldset class="feedback-form__fieldset">
             <legend class="feedback-form__legend">Контактные данные (владельца кота)</legend>
             <ul class="feedback-form__list">
               <li class="feedback-form__item">
                 <label class="feedback-form__label" for="email">E-mail:*</label>
-                <input class="feedback-form__input" type="text" id="email" name="email" placeholder="kuklachev@gmail.com" required>
+                <input class="feedback-form__input" type="email" id="email" name="email" placeholder="kuklachev@gmail.com" required>
               </li>
               <li class="feedback-form__item">
                 <label class="feedback-form__label" for="phone">Имя:*</label>
-                <input class="feedback-form__input" type="text" id="phone" name="phone" placeholder="8 (960) 900-60-90" required>
+                <input class="feedback-form__input" type="tel" id="phone" name="phone" placeholder="8 (960) 900-60-90" required>
               </li>
             </ul>
           </fieldset>
-          <fieldset class="feedback-form__fieldset fieldset__comments">
+          <fieldset class="feedback-form__fieldset">
             <legend class="feedback-form__legend">Комментарий</legend>
-              <div class="comments__wrapper">
-                <textarea class="feedback_form__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
-              </div>
+            <textarea class="feedback-form__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
-          <fieldset class="feedback-form__fieldset fieldset__additional">
+          <fieldset class="feedback-form__fieldset">
             <ul class="feedback-form__list">
               <li class="feedback-form__item">
                 <input class="feedback-form__input" type="checkbox" id="sweetener" name="sweetener" checked>
