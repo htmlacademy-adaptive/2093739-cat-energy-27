@@ -76,7 +76,7 @@
   background-color: #FFFFFF;
 }
 .hero {
-  background-image: url(/img/hero-background.jpg);
+  background-image: url(img/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -444,7 +444,7 @@
   color: #444444;
 }
 .gift {
-  background-image: url(/img/gift-background.jpg);
+  background-image: url(img/gift-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
