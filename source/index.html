@@ -9,20 +9,20 @@
     <!-- Хэдер  -->
     <header class="main-header">
       <a class="main-header__logo header-logo" href="index.html">
-        <img class="header-logo__img" src="/source/img/logo-mobile.svg" width="33" height="38" alt="Котик-супергерой.">
-        <img class="header-logo__text" src="/source/img/logo.svg" width="101" height="18" alt="Cat Energy.">
+        <img class="header-logo__img" src="img/logo-mobile.svg" width="33" height="38" alt="Котик-супергерой.">
+        <img class="header-logo__text" src="img/logo.svg" width="101" height="18" alt="Cat Energy.">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню.</span></button>
         <ul class="main-nav__list">
           <li class="main-nav__item main-nav__item--active">
-            <a href="index.html">Главная</a>
+            <a class="main-nav__link" href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
-            <a href="form.html">Подбор программы</a>
+            <a class="main-nav__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -35,8 +35,8 @@
         <div class="hero__wrapper">
           <h2 class="hero__title">Функциональное питание для котов</h2>
           <p class="hero__slogan">Занялся собой? Займись котом!</p>
-          <img class="hero__image" src="/source/img/hero-can.png" alt="Банка корма Cat Energy.">
-          <a class="program-link button" href="form.html">Подобрать программу</a>
+          <img class="hero__image" src="img/hero-can.png" width="280" height="270" alt="Банка корма Cat Energy.">
+          <a class="program-link button button--green" href="form.html">Подобрать программу</a>
         </div>
       </section>
       <section class="program-types">
@@ -47,7 +47,7 @@
             <p class="type-item__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="type-item__link type-link" href="#">
               Каталог Slim
-              <img class="type-link__arrow" src="/source/img/arrow.svg" width="24" height="12" alt="Стрелка.">
+              <img class="type-link__arrow" src="img/arrow.svg" width="24" height="12" alt="Стрелка.">
             </a>
           </li>
           <li class="program-types__item type-item type-item--mass-gain">
@@ -55,7 +55,7 @@
             <p class="type-item__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
             <a class="type-item__link type-link" href="#">
               Каталог Pro
-              <img class="type-link__arrow" src="/source/img/arrow.svg" width="24" height="12" alt="Стрелка.">
+              <img class="type-link__arrow" src="img/arrow.svg" width="24" height="12" alt="Стрелка.">
             </a>
           </li>
         </ul>
@@ -97,7 +97,7 @@
           <!--Сладер, здесь пока заглушка с котиком -->
           <div class="live-example__slider slider">
             <div class="slider__wrapper">
-              <img class="slider__img" src="/source/img/cat-fat.png" width="280" height="256" alt="Сладер с котиком.">
+              <img class="slider__img" src="img/cat-fat.png" width="280" height="256" alt="Сладер с котиком.">
               <button class="slider__control"></button>
             </div>
           </div>
@@ -106,22 +106,22 @@
     </main>
     <!-- Футер -->
     <footer class="main-footer">
-      <div class="main-footer__wrapper">
-        <section class="contacts">
-          <h2 class="visually-hidden">Контакты.</h2>
-          <div class="contacts__wrapper">
-            <div class="contacts__address address">
-              <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
-              <address class="address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-            </div>
-            <!--Карта, здесь пока заглушка с размерами моб. версии -->
-            <div class="contacts__map map">
-              <img class="map__img" src="/source/img/map.jpg" width="320" height="362" alt="Карта.">
-            </div>
+      <section class="contacts">
+        <h2 class="visually-hidden">Контакты.</h2>
+        <div class="contacts__wrapper">
+          <div class="contacts__address address">
+            <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
+            <address class="address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
           </div>
-        </section>
+          <!--Карта, здесь пока заглушка с размерами моб. версии -->
+          <div class="contacts__map map">
+            <img class="map__img" src="img/map.jpg" width="320" height="362" alt="Карта.">
+          </div>
+        </div>
+      </section>
+      <div class="main-footer__wrapper">
         <a class="main-footer__logo footer-logo" href="#">
-          <img class="footer-logo__text" src="/source/img/logo.svg" width="128" height="24" alt="Cat Energy.">
+          <img class="footer-logo__text" src="img/logo.svg" width="128" height="24" alt="Cat Energy.">
         </a>
         <div class="main-footer__social social">
           <ul class="social__list">
@@ -139,7 +139,7 @@
         <div class="main-footer__copyright copyright">
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             HTML Academy
-            <img class="copyright__img" src="/source/img/htmlacademy.svg" width="27" height="34" alt="Логотип Академии.">
+            <img class="copyright__img" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип Академии.">
           </a>
         </div>
       </div>
