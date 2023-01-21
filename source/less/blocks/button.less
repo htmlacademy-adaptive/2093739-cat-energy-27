@@ -1,0 +1,38 @@
+.button {
+  display: block;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  &--green {
+    color: @color-white;
+    background-color: @color-green;
+
+    &:hover,
+    &:focus {
+      background-color: #5EAA2F;
+    }
+  }
+    &:active {
+      background-color: #5EAA2F;
+      color: fadeout(@color-white, 70%);
+    }
+
+    &--grey {
+      color: @color-darkgrey;
+      background-color: @color-lightgrey;
+
+      &:hover,
+      &:focus {
+        background-color: @color-lightgrey-border;
+      }
+
+      &:active {
+        background-color: @color-lightgrey-border;;
+        color: fadeout(@color-darkgrey, 70%);
+      }
+    }
+  }
